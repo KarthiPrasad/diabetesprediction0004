@@ -1,0 +1,134 @@
+/* body{
+    background-color: rgb(223, 145, 172);
+    
+    background-size: cover;
+    background-blend-mode: multiply;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.formcontainer{
+    position: relative;
+    margin:  auto;
+    margin-top: 3rem;
+    min-height: 80%;
+    width: 60%;
+    box-shadow:none;
+    background: white;
+    padding: 0px 0px 5px 25px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+/*.forminput{
+    display: block;
+    margin: 0px 0px 15px 20px;
+    padding: 4px;
+    width: 80%;
+    height: 5%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    font-size: 12px
+}*/
+
+/*.forminput{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 15px 100px; 
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+}
+.submitbutton{
+
+        background:#0066A2;
+        color:white;
+        border-style:outset;
+        border-color:#0066A2;
+        height:50px;
+        width:100px;
+        font:bold15px arial,sans-serif;
+       
+} */
+
+body{
+    background-color: rgb(230, 239,245);
+    
+    background-size: cover;
+    background-blend-mode: multiply;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.formcontainer{
+    position: relative;
+    margin:  auto;
+    margin-top: 3rem;
+    min-height: 80%;
+    width: 60%;
+    box-shadow:none;
+    background: white;
+    padding: 0px 0px 5px 25px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+/*.forminput{
+    display: block;
+    margin: 0px 0px 15px 20px;
+    padding: 4px;
+    width: 80%;
+    height: 5%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    font-size: 12px
+}*/
+
+.forminput{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 15px ; 
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.submitbutton{
+
+        background:#0066A2;
+        color:white;
+        border-style:outset;
+        border-color:#0066A2;
+        height:50px;
+        width:100px;
+        font:bold15px arial,sans-serif;
+       
+}
+
+
+.inpbox input{
+    display: block;
+    
+}
+
+.inpbox h3{
+    display: block;
+}
+
+.formcontainer
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+}

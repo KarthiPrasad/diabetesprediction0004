@@ -1,0 +1,63 @@
+<!--<!DOCTYPE html>
+<head>
+    <title></title>
+    <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xQ1aoWXA+058RXPxPg6fy4IWvTNh" >
+</head>
+<body>
+    <h1>The Results are here</h1>
+
+    <h3>The Data you enetred is :{{l}}</h3>
+
+    <h3>The Patient have Diabetes or Not{{ans}} </h3>
+
+    <pre>
+        0 . The patient have Diabetes
+        1 . The patient have no Diabetes
+    </pre>
+
+   
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Result</title>
+
+  <script src="https://kit.fontawesome.com/47101d2035.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <style>
+    .center {
+      position: absolute;
+      text-align: center;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: rgb(230, 239, 245);
+    }
+  </style>
+</head>
+
+<body class="center">
+
+  {% if ans == 0 %}
+  <h1 style=" color: rgb(88, 180, 88); font-weight: 900;">
+  <i class=""></i> Patient don't have Diabetes
+
+  {% elif ans == 1 %}
+  <h1 style="color: rgb(212, 85, 85); font-weight: 900;">
+  <i class=""></i> Patient have Diabetes
+
+  {% else %}
+  <h1 style="color: rgb(31, 15, 15); font-weight: 900;">ERROR</h1>
+  {% endif %}
+
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!--<!DOCTYPE html>
+<head>
+    <title>Diabetes Patients Classification Model</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h1>This is my web page for End-to-End Model</h1>
+    
+    <div class = 'formcontainer'>
+    <form action="{% url 'result' %}">
+
+        {% csrf_token %}
+        Pregnencies: <input type="text" required name="Pregnencies" class = 'forminput'> <br><br>
+        Glucose: <input type="text" required name="Glucose" class = 'forminput'> <br><br>
+        BloodPressure: <input type="text" required name="BloodPressure" class = 'forminput'> <br><br>
+        SkinThickness: <input type="text" required name="SkinThickness" class = 'forminput'> <br><br>
+        Insulin: <input type="text" required name="Insulin" class = 'forminput'> <br><br>
+        BMI: <input type="text" required name="BMI" class = 'forminput'> <br><br>
+        DiabetesPedigreeFunction: <input type="text" required name="DiabetesPedigreeFunction" class = 'forminput'> <br><br>
+        Age: <input type="text" required name="Age" class = 'forminput'> <br><br>
+
+        <input type='Submit' name="" class='submitbutton' value="Submit">
+
+
+    </form>
+</div>
+
+</body>
+
+</html>
+-->
+
+
+<!DOCTYPE html>
+<head>
+    <title>Diabetes Prediction</title>
+    <!-- {% load static %} -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h1>This is my web page for End-to-End Model</h1>
+    
+    <div class = 'formcontainer'>
+    <form action="{% url 'result' %}">
+
+
+        <div class="inpbox"><h3>Pregnencies:</h3> <input type="text" required name="Pregnencies" class = 'forminput'></div> 
+        <div class="inpbox"><h3>Glucose: </h3><input type="text" required name="Glucose" class = 'forminput'> </div> 
+        <div class="inpbox"><h3>BloodPressure: </h3><input type="text" required name="BloodPressure" class = 'forminput'> </div> 
+        <div class="inpbox"><h3>SkinThickness: </h3><input type="text" required name="SkinThickness" class = 'forminput'> </div> 
+        <div class="inpbox"><h3>Insulin: </h3><input type="text" required name="Insulin" class = 'forminput'> </div> 
+        <div class="inpbox"><h3>BMI: </h3><input type="text" required name="BMI" class = 'forminput'> </div> 
+        <div class="inpbox"><h3>DiabetesPedigreeFunction: </h3><input type="text" required name="DiabetesPedigreeFunction" class = 'forminput'> </div> 
+        <div class="inpbox"><h3>Age: </h3><input type="text" required name="Age" class = 'forminput'> </div> 
+        <div class="inpbox"><input type='Submit' name="" class='submitbutton' value="Submit"></div> 
+
+
+    </form>
+    
+
+</div>
+
+</body>
+
+</html>
